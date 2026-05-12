@@ -26,6 +26,7 @@ const HomeSlider = () => {
                         alt="Slider Image 1"
                         fill
                         priority
+                        sizes="100vw"
                         className="object-fill object-[center_20%]"
                     />
                 </div>
@@ -35,6 +36,7 @@ const HomeSlider = () => {
                         src="/assets/SLIDER-IMAGES/slider2.png"
                         alt="Slider Image 2"
                         fill
+                        sizes="100vw"
                         className="object-fill object-[center_20%]"
                     />
                 </div>

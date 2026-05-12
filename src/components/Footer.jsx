@@ -85,6 +85,7 @@ const Footer = () => {
 
                         <a
                             href="#"
+                            aria-label="Facebook"
                             className="rounded-full bg-white/10 p-3 transition hover:bg-[#1c9d36]"
                         >
                             <FaFacebookF />
@@ -94,6 +95,7 @@ const Footer = () => {
                             href="https://www.instagram.com/medicaresystemrgkak?utm_source=qr&igsh=MTJoZnZ0eGFtOGducA=="
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Instagram"
                             className="rounded-full bg-white/10 p-3 transition hover:bg-[#1c9d36]"
                         >
                             <FaInstagram />
@@ -101,6 +103,7 @@ const Footer = () => {
 
                         <a
                             href="#"
+                            aria-label="LinkedIn"
                             className="rounded-full bg-white/10 p-3 transition hover:bg-[#1c9d36]"
                         >
                             <FaLinkedinIn />
