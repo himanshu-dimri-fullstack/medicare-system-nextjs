@@ -19,21 +19,23 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="sticky top-0 z-50 w-full bg-white shadow-sm">
-            <div className="mx-auto max-w-7xl px-4">
+        <div className="sticky top-0 z-50 w-full bg-white shadow-sm px-4 xl:px-0">
+            <div className="mx-auto max-w-7xl">
 
                 <div className="flex h-20 items-center justify-between">
-
                     <Link href="/" className="flex cursor-pointer flex-col">
+                        <div className="flex justify-center">
+                            <Image
+                                src="/assets/logo2.png"
+                                alt="Logo"
+                                width={64}
+                                height={48}
+                                className="h-12 w-16"
+                                priority
+                            />
+                        </div>
 
-                        <Image
-                            src="/assets/logo2.png"
-                            alt="Logo"
-                            width={64}
-                            height={48}
-                            className="h-12 w-16"
-                            priority
-                        />
+
 
                         <span className="text-sm font-semibold text-[#1c9d36]">
                             Medicare <span className="text-black">System Inc.</span>

@@ -27,6 +27,7 @@ const ProductsPage = () => {
         <div className="min-h-screen bg-linear-to-br from-[#e9f7ef] to-white px-6 md:px-12 lg:px-20 py-12">
 
             <div className="text-center mb-14">
+                <div className="w-24 h-1 bg-[#1c9d36] mx-auto mb-4 rounded-full"></div>
                 <h1 className="text-4xl font-bold text-gray-800 tracking-tight">
                     Our Products
                 </h1>

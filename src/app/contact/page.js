@@ -24,7 +24,7 @@ Looking forward to your response. Thanks!`;
     };
 
     const handleGmailRedirect = () => {
-        const email = "info@medicaresystem.in";
+        const email = "medicaresystem@gmail.com";
         const subject = "Enquiry";
 
         const body = `Hi,
@@ -83,7 +83,7 @@ I would like to enquire about your products/services.`;
                                 onClick={handleGmailRedirect}
                                 className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition cursor-pointer"
                             >
-                                info@medicaresystem.in
+                                medicaresystem@gmail.com
                             </p>
 
                         </div>

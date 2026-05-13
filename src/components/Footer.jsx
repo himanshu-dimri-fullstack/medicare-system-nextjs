@@ -69,7 +69,7 @@ const Footer = () => {
 
                         <li className="flex items-center gap-3">
                             <FaEnvelope className="text-[#1c9d36]" />
-                            info@medicaresystem.in
+                            medicaresystem@gmail.com
                         </li>
 
                     </ul>
